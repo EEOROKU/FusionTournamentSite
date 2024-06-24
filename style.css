@@ -124,7 +124,7 @@ body {
 
 }
 #hero{
-    background-image: url("img/garri.jpg");
+    background-image: url("img/mk2.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 90vh;
@@ -266,27 +266,25 @@ body {
     padding-right: 20%;
 }
 
-#feature{
+#feature .fe-box{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
-#feature .fe-box {
-    width: 180px;
+#feature .fe-box img:hover{
+    box-shadow: 10px 10px 54px rgba(181, 179, 206, 0.1);
+}
+#feature img{
+    height: 800px;
+    display: flex;
+    justify-content: flex-start;
     text-align: center;
-    padding: 25px 15px;
-    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
-    border: 1px solid #cce7d0;
-    border-radius: 4px;
-    margin: 15px 0;
+    flex-wrap: wrap;
 }
-#feature .fe-box:hover{
-    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
-}
-#feature .fe-box img {
-    width: 100%;
-    margin-bottom: 10px;
+#feature h2{
+    text-align: center;
+    color: blue;
+    background-color: #000;
 }
 #feature .fe-box h6{
     display: inline-block;
