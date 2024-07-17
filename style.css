@@ -600,50 +600,7 @@ footer .copyright{
 .closebtn {
     display: none;
    }
-@media screen and (max-width: 800px) {
-    #mySidenav {
-        width: 250px; /* Or whatever width you want for the sidebar */
-        height: 100%;
-        position:fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: rgba(0, 0, 0, 0.9);
-        overflow-x: hidden;
-        transition: 0.5s;
-        padding-top: 60px;
-        transform: translateX(-100%);
-    }
-    
-    #navbar {
-        flex-direction: column;
-    }
-    #navbar li {
-        padding: 10px 0;
-    }
-    #navbar li a{
-        text-decoration: none;
-        font-size: 16px;
-        font-weight: 600;
-        color: white;
-        transition: 0.3s ease;
-    }
-    #navbar li i{
-        color: white;
-    }
-    #mobile {
-        display: block;
-    }
-    .sidenav .closebtn {
-        display: flex;
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-        color: red;
-      }
-}
+
 
 /*Shop page*/
 #page-header{
@@ -800,7 +757,7 @@ footer .copyright{
     color: black;
 }
 #about-index{
-    background-image: url(img/fc.jpeg);
+    background-image: url(img/ea-sports-fc-24-erling-haaland-football-4k-wallpaper-uhdpaper.com-135@1@m.jpg);
     background-size: 100% 100%;
     display: flex;
     align-items: left;
@@ -1044,3 +1001,250 @@ footer .copyright{
     padding: 10px;
     font-size: 13px;
 }
+.vid{
+    background-image: url(img/Website_designs_copy.png);
+    background-size: auto 100%;
+}
+.vid h1{
+    padding-top: 20px;
+    color: blue;
+    text-align: center;
+}
+.video-con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.video-con video{
+    flex: 1 0 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@media (max-width: 854px) {
+    .video-con video {
+        flex: 1 0 100%; /* On small screens, the videos will stack vertically */
+    }
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.video-container button{
+    
+    background-color: blue;
+    color: blue;
+    border: 1px solid blue ;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.video-container button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.video-container h1{
+    color: blue;
+}
+.video-container h4{
+    padding-bottom: 15px;
+    color: white;
+}
+.video-container h3{
+    color: white;
+}
+.video-container h2{
+    color: white;
+}
+.video-container p{
+    color: blue;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    z-index: 1;
+    color: white;
+    font-size: 20px;
+}
+
+@media screen and (orientation: portrait) {
+    #mySidenav {
+        width: 250px; /* Or whatever width you want for the sidebar */
+        height: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0; /* Changed from left: 0; */
+        background-color: rgba(0, 0, 0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        transform: translateX(100%); /* Changed from translateX(-100%); */
+    }
+    
+    #navbar {
+        flex-direction: column;
+    }
+    
+    #navbar li {
+        padding: 10px 0;
+    }
+    
+    #navbar li a {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 600;
+        color: white;
+        transition: 0.3s ease;
+    }
+    
+    #navbar li i {
+        color: white;
+    }
+    
+    #mobile {
+        display: block;
+    }
+    
+    .sidenav .closebtn {
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 25px; /* Changed from right: 25px; */
+        font-size: 36px;
+        margin-left: 50px;
+        color: red;
+    }
+    
+    #about-index{
+        background-image: url(img/fc.jpeg);
+        background-size: auto 100%;
+        display: flex;
+        align-items: left;
+        padding-right:50% ;
+        padding-bottom: 35px;   
+    }
+    #register{
+        background-image: url(img/1331503.jpg);
+        background-size: auto 100%;
+        display: flex;
+        align-items: left;
+        padding-right:50% ;
+        padding-bottom: 40px;   
+    }
+    .video-container {
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        overflow: hidden;
+    }
+    
+    .video-container video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+/* CSS for 4K screens */
+@media screen and (min-width: 3840px) {
+    #hero{
+        background-image: url("img/mk2.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+        background-position: top 25% right 0%;
+        padding: 0 80px;
+        padding-top: 400px;
+        padding-bottom: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    #about-index{
+        background-image: url(img/fc.jpeg);
+        background-size: auto 100%;
+        display: flex;
+        align-items: left;
+        padding-right:50% ;
+        padding-bottom: 1000px;   
+    }
+    #register{
+        background-image: url(img/1331503.jpg);
+        background-size: 100% 100%;
+        display: flex;
+        align-items: left;
+        padding-right:50% ;
+        padding-bottom: 400px;   
+    }
+    #feature img{
+        height: 1200px;
+        display: flex;
+        justify-content: flex-start;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+  }
+  
+  /* CSS for 2K screens */
+  @media screen and (min-width: 2048px) and (max-width: 3839px) {
+    #hero{
+        background-image: url("img/mk2.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+        background-position: top 25% right 0%;
+        padding: 0 80px;
+        padding-top: 400px;
+        padding-bottom: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    #about-index{
+        background-image: url(img/fc.jpeg);
+        background-size: auto 100%;
+        display: flex;
+        align-items: left;
+        padding-right:50% ;
+        padding-bottom: 1000px;   
+    }
+    #register{
+        background-image: url(img/1331503.jpg);
+        background-size: auto 100%;
+        display: flex;
+        align-items: left;
+        padding-right:50% ;
+        padding-bottom: 1000px;   
+    }
+    #feature img{
+        height: 1200px;
+        display: flex;
+        justify-content: flex-start;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+  }
