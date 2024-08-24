@@ -39,6 +39,9 @@ p {
    margin: 15px 0 20px 0;
 }
 
+span{
+color: #606063;
+}
 .section-p1 {
 	padding:40px 80px;
 }
@@ -757,7 +760,7 @@ footer .copyright{
     color: black;
 }
 #about-index{
-    background-image: url(img/ea-sports-fc-24-erling-haaland-football-4k-wallpaper-uhdpaper.com-135@1@m.jpg);
+    background-image: url(img/ea-sports-fc-24-erling-haaland-game-4k-back.jpg);
     background-size: 100% 100%;
     display: flex;
     align-items: left;
@@ -782,7 +785,7 @@ footer .copyright{
 }
 #register button{
     background-color: blue;
-    color: blue;
+    color: white;
     border: 1px solid blue ;
     padding: 14px 80px 14px 65px;
     background-repeat: no-repeat;
@@ -1002,7 +1005,7 @@ footer .copyright{
     font-size: 13px;
 }
 .vid{
-    background-image: url(img/Website_designs_copy.png);
+    background-image: url(img/WPFC.jpg);
     background-size: auto 100%;
 }
 .vid h1{
@@ -1043,22 +1046,17 @@ footer .copyright{
 .video-container button{
     
     background-color: blue;
-    color: blue;
+    color: white;
     border: 1px solid blue ;
-    padding: 14px 80px 14px 65px;
+    padding: 14px 100px 14px 100px;
     background-repeat: no-repeat;
     cursor: pointer;
     font-weight: 700;
-    font-size: 15px;
-}
-
-.video-container button a{
-    text-decoration: none;
-    color: #fff;
+    font-size: 20px;
 }
 
 .video-container h1{
-    color: blue;
+    color: white;
 }
 .video-container h4{
     padding-bottom: 15px;
@@ -1133,7 +1131,7 @@ footer .copyright{
     }
     
     #about-index{
-        background-image: url(img/fc.jpeg);
+        background-image: url(img/ea-sports-fc-24-erling-haaland-game-4k-back.jpg);
         background-size: auto 100%;
         display: flex;
         align-items: left;
@@ -1182,7 +1180,7 @@ footer .copyright{
         justify-content: center;
     }
     #about-index{
-        background-image: url(img/fc.jpeg);
+        background-image: url(img/ea-sports-fc-24-erling-haaland-game-4k-back.jpg);
         background-size: auto 100%;
         display: flex;
         align-items: left;
@@ -1225,7 +1223,7 @@ footer .copyright{
         justify-content: center;
     }
     #about-index{
-        background-image: url(img/fc.jpeg);
+        background-image: url(img/ea-sports-fc-24-erling-haaland-game-4k-back.jpg);
         background-size: auto 100%;
         display: flex;
         align-items: left;
